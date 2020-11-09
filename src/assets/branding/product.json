@@ -1,14 +1,14 @@
 {
-  "title": "Eclipse Che ",
-  "name": "Eclipse Che",
-  "logoFile": "che-logo.svg",
-  "logoTextFile": "che-logo-text.svg",
+  "title": "Chime Developer ",
+  "name": "Chime Developer",
+  "logoFile": "chime-logo.svg",
+  "logoTextFile": "chime-logo-text.svg",
   "favicon": "favicon.ico",
   "loader": "loader.svg",
   "websocketContext": "/api/websocket",
-  "helpPath": "https://www.eclipse.org/che/",
+  "helpPath": "https://www.cellwize.com/",
   "helpTitle": "Community",
-  "supportEmail": "che-dev@eclipse.org",
+  "supportEmail": "support@cellwize.com",
   "oauthDocs": "Configure OAuth in the che.properties file.",
   "workspace": {
     "priorityStacks": [
@@ -23,13 +23,13 @@
     "name": "CHE"
   },
   "docs": {
-    "devfile": "https://www.eclipse.org/che/docs/che-7/making-a-workspace-portable-using-a-devfile/",
-    "workspace": "https://www.eclipse.org/che/docs/che-7/workspaces-overview/",
-    "factory": "https://www.eclipse.org/che/docs/factories-getting-started.html",
-    "organization": "https://www.eclipse.org/che/docs/organizations.html",
-    "converting": "https://www.eclipse.org/che/docs/che-7/converting-a-che-6-workspace-to-a-che-7-devfile/",
-    "certificate": "https://www.eclipse.org/che/docs/che-7/installing-che-in-tls-mode-with-self-signed-certificates/#using-che-with-tls_installing-che-in-tls-mode-with-self-signed-certificates",
-    "general": "https://www.eclipse.org/che/docs/che-7",
-    "storageTypes": "https://www.eclipse.org/che/docs/che-7/using-different-type-of-storage/"
+    "devfile": "https://kb.cellwize.com/x/m4eXBg",
+    "workspace": "https://kb.cellwize.com/x/m4eXBg",
+    "factory": "https://kb.cellwize.com/x/m4eXBg",
+    "organization": "https://kb.cellwize.com/x/m4eXBg",
+    "converting": "https://kb.cellwize.com/x/m4eXBg",
+    "certificate": "https://kb.cellwize.com/x/m4eXBg",
+    "general": "https://kb.cellwize.com/x/m4eXBg",
+    "storageTypes": "https://kb.cellwize.com/x/m4eXBg"
   }
 }
