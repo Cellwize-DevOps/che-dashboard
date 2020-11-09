@@ -1,1 +1,35 @@
-{}
+{
+  "title": "Chime Developer ",
+  "name": "Chime Developer",
+  "logoFile": "chime-logo.svg",
+  "logoTextFile": "chime-logo-text.svg",
+  "favicon": "favicon.ico",
+  "loader": "loader.svg",
+  "websocketContext": "/api/websocket",
+  "helpPath": "https://www.cellwize.com/",
+  "helpTitle": "Community",
+  "supportEmail": "support@cellwize.com",
+  "oauthDocs": "Configure OAuth in the che.properties file.",
+  "workspace": {
+    "priorityStacks": [
+      "Java",
+      "Java-MySQL",
+      "Blank"
+    ],
+    "defaultStack": "java-mysql"
+  },
+  "cli": {
+    "configName": "che.env",
+    "name": "CHE"
+  },
+  "docs": {
+    "devfile": "https://kb.cellwize.com/x/m4eXBg",
+    "workspace": "https://kb.cellwize.com/x/m4eXBg",
+    "factory": "https://kb.cellwize.com/x/m4eXBg",
+    "organization": "https://kb.cellwize.com/x/m4eXBg",
+    "converting": "https://kb.cellwize.com/x/m4eXBg",
+    "certificate": "https://kb.cellwize.com/x/m4eXBg",
+    "general": "https://kb.cellwize.com/x/m4eXBg",
+    "storageTypes": "https://kb.cellwize.com/x/m4eXBg"
+  }
+}
