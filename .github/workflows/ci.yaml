@@ -30,7 +30,7 @@ jobs:
     - name: "Docker prepare"
       run: docker image prune -a -f
     - name: "Docker docker.io Login"
-      run:  docker login -u "${{ secrets.DOCKERHUB_USERNAME }}" -p "${{ secrets.DOCKERHUB_PASSWORD }}" docker.io
+      run:  docker login -u "${{ secrets.DOCKER_USERNAME }}" -p "${{ secrets.DOCKER_PASSWORD }}" docker.io
     - name: "Docker build with cache"
       uses: nick-invision/retry@v1
       with:
