@@ -18,8 +18,8 @@ jobs:
     strategy:
       fail-fast: false
     env:
-      IMAGE_FULL: israelber/chime-dashboard:next
-      CACHE_IMAGE_FULL: israelber/chime-dashboard:cache
+      IMAGE_FULL: cellwizeltd/chime-dashboard:next
+      CACHE_IMAGE_FULL: cellwizeltd/chime-dashboard:cache
     steps:
     - uses: actions/checkout@v2
       name: Checkout che-dashboard source code
