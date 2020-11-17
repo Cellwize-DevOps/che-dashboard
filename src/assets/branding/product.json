@@ -1,1 +1,45 @@
-{}
+{
+  "title": "Chime Developer ",
+  "name": "Chime Developer",
+  "logoFile": "chime-logo.svg",
+  "logoTextFile": "chime-logo-text.svg",
+  "favicon": "favicon.ico",
+  "loader": "loader.svg",
+  "websocketContext": "/api/websocket",
+  "helpPath": "https://www.cellwize.com/platform/",
+  "helpTitle": "Community",
+  "supportEmail": "support@cellwize.com",
+  "oauthDocs": "Configure OAuth in the che.properties file.",
+  "workspace": {
+    "priorityStacks": [
+      "Java",
+      "Java-MySQL",
+      "Blank"
+    ],
+    "defaultStack": "java-mysql"
+  },
+  "cli": {
+    "configName": "che.env",
+    "name": "CHE"
+  },
+  "docs": {
+    "devfile": "https://kb.cellwize.com/display/DPO/API+References",
+    "workspace": "https://kb.cellwize.com/display/DPO/API+References",
+    "factory": "https://kb.cellwize.com/display/DPO/API+References",
+    "organization": "https://kb.cellwize.com/display/DPO/API+References",
+    "converting": "https://kb.cellwize.com/display/DPO/API+References",
+    "certificate": "https://kb.cellwize.com/display/DPO/API+References",
+    "general": "https://kb.cellwize.com/display/DPO/API+References",
+    "storageTypes": "https://kb.cellwize.com/display/DPO/API+References"
+  },
+  "configuration": {
+    "menu": {
+      "disabled": [
+        "organizations",
+        "factories",
+        "stacks",
+        "administration"
+      ]
+    }
+  }
+}
