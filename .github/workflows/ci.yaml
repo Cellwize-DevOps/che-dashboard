@@ -11,14 +11,14 @@ name: CI
 on:
   push:
     branches:
-      - master
+      - 7.21.x
 jobs:
   docker-build:
     runs-on: ubuntu-18.04
     strategy:
       fail-fast: false
     env:
-      IMAGE_FULL: cellwizeltd/chime-dashboard:next
+      IMAGE_FULL: cellwizeplatform/chime-dashboard:7.21.2
       CACHE_IMAGE_FULL: cellwizeltd/chime-dashboard:cache
     steps:
     - uses: actions/checkout@v2
