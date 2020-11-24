@@ -18,8 +18,8 @@ jobs:
     strategy:
       fail-fast: false
     env:
-      IMAGE_FULL: cellwizeltd/chime-dashboard:7.21
-      CACHE_IMAGE_FULL: cellwizeltd/chime-dashboard:cache
+      IMAGE_FULL: cellwizeplatform/chime-dashboard:7.21
+      CACHE_IMAGE_FULL: cellwizeplatform/chime-dashboard:cache
     steps:
     - uses: actions/checkout@v2
       name: Checkout che-dashboard source code
