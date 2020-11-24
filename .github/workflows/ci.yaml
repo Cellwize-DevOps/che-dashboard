@@ -18,7 +18,7 @@ jobs:
     strategy:
       fail-fast: false
     env:
-      IMAGE_FULL: cellwizeltd/chime-dashboard:next
+      IMAGE_FULL: cellwizeltd/chime-dashboard:7.21
       CACHE_IMAGE_FULL: cellwizeltd/chime-dashboard:cache
     steps:
     - uses: actions/checkout@v2
