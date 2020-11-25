@@ -2,7 +2,7 @@
   "title": "Chime Developer ",
   "name": "Chime Developer",
   "logoFile": "chime-logo.svg",
-  "logoTextFile": "chime-logo-text.svg",
+  "logoTextFile": "chime-logo-text-white.svg",
   "favicon": "favicon.ico",
   "loader": "loader.svg",
   "websocketContext": "/api/websocket",
